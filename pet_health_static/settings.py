@@ -26,7 +26,7 @@ SECRET_KEY = '21ji6b4klgcdiuiu9-!gt#b6)sulfb^fddbd(rozctn%f%pdyk'
 DEBUG = False
 
 
-ALLOWED_HOSTS = [ 'localhost', '.chicagopethhealth.com','52.89.66.201' ]
+ALLOWED_HOSTS = [ 'localhost', '.chicagopethhealth.com','52.27.101.111' ]
 
 
 

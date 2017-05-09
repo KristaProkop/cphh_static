@@ -1,6 +1,5 @@
 from __future__ import unicode_literals
 from django.db import models
-from django.conf import settings
 from django.core.mail import EmailMessage
 
 
@@ -24,7 +23,7 @@ class InquiryManager(models.Manager):
             email = EmailMessage(
                     'CPHH Website Inquiry', 
                     body,
-                    to=['settings.ADMIN_EMAIL']
+                    to=['meganacarolan@gmail.com']
                 )
             email.send()
             return True

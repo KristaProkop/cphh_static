@@ -7,17 +7,6 @@ from apps.cphh.models import Message, Inquiry
 
 
 
-class MessageAdmin(admin.ModelAdmin):
-    pass
-admin.site.register(Message, MessageAdmin)
-
-class InquiryAdmin(admin.ModelAdmin):
-    pass
-admin.site.register(Inquiry, InquiryAdmin)
-
-
-
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
     url(r'^', include('apps.cphh.urls', namespace='cphh')),
 ]

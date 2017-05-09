@@ -23,9 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '21ji6b4klgcdiuiu9-!gt#b6)sulfb^fddbd(rozctn%f%pdyk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ADMINS = [("Krista", "krista.prokop@gmail.com")]
 
 ALLOWED_HOSTS = [ 'localhost', '.chicagopethhealth.com','52.89.66.201' ]
 
@@ -120,7 +119,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-ENV_PATH = os.path.abspath(os.path.dirname(__file__))
 
 STATIC_URL = '/static/'
 
@@ -130,5 +128,5 @@ ADMIN_EMAIL = 'meganacarolan@gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'pethealthandharmony@gmail.com'
-EMAIL_HOST_PASSWORD = os.environ['CPHH_EMAIL_PASSWORD']
+EMAIL_HOST_PASSWORD = 'REPLACE'
 EMAIL_PORT = 587

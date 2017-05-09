@@ -27,7 +27,7 @@ DEBUG = True
 
 ADMINS = [("Krista", "krista.prokop@gmail.com")]
 
-ALLOWED_HOSTS = [ 'localhost', '.chicagopethhealth.com','52.34.133.229' ]
+ALLOWED_HOSTS = [ 'localhost', '.chicagopethhealth.com','52.89.66.201' ]
 
 
 
